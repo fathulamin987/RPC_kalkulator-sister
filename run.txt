@@ -1,0 +1,9 @@
+terminal 1 :
+python server.py
+
+terminal 2 :
+kalau mau tanpa gui pake ini :
+python client_sederhana.py
+
+kalau mau pake tampilan gui ini :
+python client_gui.py
