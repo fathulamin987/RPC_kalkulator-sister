@@ -7,3 +7,13 @@ python client_sederhana.py
 
 kalau mau pake tampilan gui ini :
 python client_gui.py
+
+
+Jalankan RPC Server Utama (server.py):
+Server ini memproses logika bisnis dasar.
+
+Jalankan API Server (api_server.py):
+Server ini menerima permintaan HTTP REST API dari luar, lalu meneruskannya ke server.py lewat RPC.
+
+Jalankan Client GUI (client_gui.py):
+Sebagai antarmuka pengguna interaktif (pendekatan RME)
